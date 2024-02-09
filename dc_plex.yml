@@ -5,7 +5,7 @@
       - /opt/appdata/plex:/config
       - /mnt/media:/plex
       - /tmp:/tmp
-    network_mode: host
+    network: host
     restart: always
     environment:
       - PUID=${PUID}
